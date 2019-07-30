@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
 
-class Transaction extends React.Component {
+class Transaction2 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       name: "",
       tiempo: "Tue Jul 30 2019",
-      nombre: "100 Litros Gasolina",
-      encargado: "Luis Gonzalez",
+      nombre: "Compra de Tornillos",
+      encargado: "Juan Perez",
       status: true,
-      num: 3
+      num: 1
     };
   }
   Change = () => {
@@ -53,4 +53,4 @@ class Transaction extends React.Component {
   }
 }
 
-export default Transaction;
+export default Transaction2;

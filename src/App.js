@@ -3,6 +3,7 @@ import cemex from "./cemex.png";
 import luis from "./luis.jpg";
 import "./App.css";
 import Transaction from "./Transactions.js";
+import Transaction2 from "./Transactions2.js";
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
             <li>
               <p className="Informacion">Status</p>
             </li>
+            <li>
+              <p className="Informacion">Paso</p>
+            </li>
           </ul>
         </div>
         <body id="TransactinHistory">
@@ -46,7 +50,7 @@ function App() {
             <Transaction />
           </div>
           <div id="MarginContent">
-            <Transaction />
+            <Transaction2 />
           </div>
         </body>
       </header>
