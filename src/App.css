@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 5vh;
+  pointer-events: none;
+  margin-left: 5vh;
+  top: 5vh;
+  position: relative;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#HeaderList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 85vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+li {
+  float: left;
+}
+
+#UserLogo {
+  margin-left: 108vh;
+  height: 55px;
+  width: 55px;
+  background-image: linear-gradient(-45deg, darkblue, lightblue);
+  border-radius: 60%;
+  display: inline-block;
+  position: inherit;
+  float: left;
+}
+
+#TransactinHistory {
+  height: 50vh;
+  width: 125vh;
+  background: #f2f2f2;
+}
+
+.Lista h3 {
+  height: 1vh;
+  margin-left: 5vh;
+}
+
+.divider {
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
+  height: 40px;
+  float: left;
+  bottom: -4.35vh;
+  position: relative;
+  left: 2vh;
+}
+
+li {
+  margin-left: 1vh;
+  list-style-type: none;
+}
+
+.TransactionInfo {
+  color: black;
+  left: 1vh;
+}
+
+#container {
+  margin-top: 5vh;
+  border-radius: 1vh;
+}
+
+.Informacion {
+  color: black;
+  margin-left: 15vh;
+}
+
+#InfoContainer {
+  position: relative;
+  right: 18vh;
+}
+
+#MarginContent {
+  height: 5vh;
+  width: 100%;
+}
