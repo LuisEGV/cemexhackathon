@@ -16,6 +16,9 @@ class Transaction2 extends React.Component {
   Change = () => {
     this.setState({ status: !this.state.status });
   };
+  add = () => {
+    this.setState({ num: this.state.status++ });
+  };
   render() {
     return (
       <div id="container">
@@ -45,7 +48,7 @@ class Transaction2 extends React.Component {
           <div className="divider"> </div>
           <li className="TransactionInfo" id="Encargado">
             {" "}
-            <h3> {this.state.num} </h3>{" "}
+            <h3 onClick={this.add}> {this.state.num} </h3>{" "}
           </li>
         </ul>
       </div>
