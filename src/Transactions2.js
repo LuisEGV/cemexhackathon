@@ -7,7 +7,7 @@ class Transaction2 extends React.Component {
     this.state = {
       name: "",
       tiempo: "Tue Jul 30 2019",
-      nombre: "Compra de Tornillos",
+      nombre: "OC248351 - 50 Tornillos   ",
       encargado: "Juan Perez",
       status: true,
       num: 1

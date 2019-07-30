@@ -54,7 +54,7 @@ class App extends React.Component {
               </li>
               <li>
                 <p className="Informacion" onClick={this.magic}>
-                  Encargado
+                  Comprador
                 </p>
               </li>
               <li>
@@ -90,7 +90,7 @@ class App extends React.Component {
             </div>
           </body>
         </header>
-        <img src={steps} className="steps" alt="logo" />
+        <img src={steps} className="steps" />
       </div>
     );
   }
