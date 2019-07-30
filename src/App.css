@@ -6,7 +6,7 @@
   animation: App-logo-spin infinite 20s linear;
   height: 5vh;
   pointer-events: none;
-  margin-left: 5vh;
+  margin-left: 3vh;
   top: 5vh;
   position: relative;
 }
@@ -39,25 +39,25 @@ li {
 }
 
 #UserLogo {
-  margin-left: 108vh;
-  height: 55px;
-  width: 55px;
-  background-image: linear-gradient(-45deg, darkblue, lightblue);
-  border-radius: 60%;
-  display: inline-block;
-  position: inherit;
-  float: left;
+  height: 9vh;
+  width: 9vh;
+  border-radius: 50%;
+  left: 100vh;
+  position: relative;
+  top: 2vh;
 }
 
 #TransactinHistory {
+  position: relative;
+  bottom: 3vh;
   height: 50vh;
-  width: 125vh;
+  width: 160vh;
   background: #f2f2f2;
 }
 
 .Lista h3 {
   height: 1vh;
-  margin-left: 5vh;
+  margin-left: 9vh;
 }
 
 .divider {
@@ -67,7 +67,7 @@ li {
   float: left;
   bottom: -4.35vh;
   position: relative;
-  left: 2vh;
+  left: 17vh;
 }
 
 li {
@@ -77,7 +77,8 @@ li {
 
 .TransactionInfo {
   color: black;
-  left: 1vh;
+  left: 12vh;
+  position: relative;
 }
 
 #container {
@@ -86,16 +87,26 @@ li {
 }
 
 .Informacion {
-  color: black;
-  margin-left: 15vh;
+  color: white;
+  margin-left: 20vh;
 }
 
 #InfoContainer {
   position: relative;
-  right: 18vh;
+  right: -0vh;
+  background-color: darkblue;
+  height: 10vh;
+  width: 155vh;
 }
 
 #MarginContent {
   height: 5vh;
   width: 100%;
+}
+
+#Name {
+  color: black;
+  left: 68vh;
+  top: 1vh;
+  position: relative;
 }

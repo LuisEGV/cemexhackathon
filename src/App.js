@@ -1,5 +1,6 @@
 import React from "react";
 import cemex from "./cemex.png";
+import luis from "./luis.jpg";
 import "./App.css";
 import Transaction from "./Transactions.js";
 
@@ -14,13 +15,20 @@ function App() {
             </a>
           </li>
           <li>
-            <span id="UserLogo"> </span>
+            <ul>
+              <li>
+                <img id="UserLogo" src={luis} alt="Luis" />
+              </li>
+              <li>
+                <p id="Name">Luis Gonzalez</p>
+              </li>
+            </ul>
           </li>
         </ul>
         <div>
           <ul id="InfoContainer">
             <li>
-              <p className="Informacion">Hora</p>
+              <p className="Informacion">Fecha</p>
             </li>
             <li>
               <p className="Informacion">Orden</p>
